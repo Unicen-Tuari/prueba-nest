@@ -11,7 +11,6 @@ export class AppController {
     return this.appService.getHello();
   }
 
-
   @Get('/usuarios')
   getCosas(): string {
     return "Hola";
