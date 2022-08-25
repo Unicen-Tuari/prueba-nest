@@ -2,14 +2,13 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-
-  constructor(){
-      this.direccion = "Argentina";
+  constructor() {
+    this.direccion = 'Tandil, Buenos Aires!';
   }
 
   getHello(): string {
     return 'Hello World from ' + this.direccion;
   }
 
-  private direccion : String = "Brazil";
+  private direccion: String = 'Brazil';
 }
