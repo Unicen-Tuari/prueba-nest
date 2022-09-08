@@ -6,7 +6,7 @@ export class AppService {
     this.direccion = 'Tandil, Buenos Aires!';
   }
 
-  getHello(): string {
+  decirHola(): string {
     return 'Hello World from ' + this.direccion;
   }
 
